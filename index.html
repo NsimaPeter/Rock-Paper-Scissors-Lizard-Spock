@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, Paper, Scissors, Lizard, Spock</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors Lizard Spock Game</h1>
+    </header>
+
+    <section>
+        <div class="game">
+          <div class="choices">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+            <button id="lizard">Lizard</button>
+            <button id="spock">Spock</button>
+          </div>
+          <div class="result">
+            <p id="message">Make your choice!</p>
+            <p id="computer-choice"></p>
+            <p id="user-choice"></p>
+  
+            <p>Score:</p>
+            <div class="scoreboard">
+              <p>You: <span id="user-score">0</span></p>
+              <p>Computer: <span id="computer-score">0</span></p>
+            </div>
+            <p>Remaining Tries: <span id="remaining-tries"></span></p>
+  
+            <p id="winner-message"></p>
+          </div>
+          <div class="difficulty">
+            <label>
+              <input type="radio" name="difficulty" value="easy" checked /> Easy
+            </label>
+            <label>
+              <input type="radio" name="difficulty" value="normal" /> Normal
+            </label>
+            <label>
+              <input type="radio" name="difficulty" value="hard" /> Hard
+            </label>
+          </div>
+        </div>
+      </section>
+    
+</body>
+</html>
