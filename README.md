@@ -1,6 +1,7 @@
 # Rock-Paper-Scissors-Lizard-Spock Game
 
 This is a simple web-based game that allows you to play the popular game "Rock, Paper, Scissors" with a twist - it includes "Lizard" and "Spock" as additional options. The game also offers three levels of difficulty: easy, normal, and hard, and limits the number of tries to increase the challenge.
+
 ![Screenshot 2023-10-12 at 10 58 47](https://github.com/NsimaPeter/Rock-Paper-Scissors-Lizard-Spock/assets/122939682/6f00c0da-371f-4d43-b1d2-5f6385dbe105)
 
 
