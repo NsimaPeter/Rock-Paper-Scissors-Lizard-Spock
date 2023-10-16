@@ -1,8 +1,11 @@
+/* Reset some default styles and set box-sizing to border-box for consistent sizing */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
+
+  /* Style for the body of the webpage */
   body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -10,24 +13,30 @@
     margin: 0;
     padding: 0;
   }
+
+  /* Style for the header section */
   header {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0;
   }
+
+  /* Style for the h1 element inside the header */
   h1 {
     color: #ffffff;
     text-transform: uppercase;
   }
 
+  /* Style for the main content section */
   section {
     display: flex;
     align-items: center;
     justify-content: center;
     height: calc(85vh - 20px);
   }
-  
+
+  /* Style for the game container */
   .game {
     max-width: 400px;
     margin: 0 auto;
@@ -36,7 +45,8 @@
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   }
-  
+
+  /* Style for the choice buttons */
   .choices button {
     font-size: 18px;
     padding: 10px 20px;
@@ -48,15 +58,18 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
-  
+
+  /* Style for button hover state */
   .choices button:hover {
     background-color: #0056b3;
   }
-  
+
+  /* Style for the result section */
   .result {
     margin-top: 20px;
   }
-  
+
+  /* Style for the scoreboard section */
   .scoreboard {
     display: flex;
     justify-content: space-between;
@@ -71,28 +84,33 @@
     font-weight: bold;
     color: #007bff;
   }
-  
+
+  /* Style for the computer's choice display */
   #computer-choice {
     font-size: 16px;
     margin-top: 10px;
   }
-  
+
+  /* Style for the remaining tries display */
   #remaining-tries {
     font-size: 16px;
     color: #d9534f;
     font-weight: bold;
     margin-top: 10px;
   }
-  
+
+  /* Style for the winner message */
   #winner-message {
     padding-top: 1rem;
     color: green;
   }
-  
+
+  /* Style for the difficulty section */
   .difficulty {
     padding-top: 1rem;
   }
 
+  /* Style for the footer section */
   footer {
     background-color: #333;
     color: #fff;
